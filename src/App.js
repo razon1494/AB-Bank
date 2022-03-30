@@ -1,11 +1,8 @@
 import "./App.css";
+import TheLayout from "./views/TheLayout";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>AB Bank</h1>
-    </div>
-  );
+  return <TheLayout></TheLayout>;
 }
 
 export default App;
